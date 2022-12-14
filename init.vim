@@ -47,8 +47,6 @@ Plug 'numToStr/Comment.nvim'
 """""window bar
 "Plug 'neovim/nvim-lspconfig'
 "Plug 'SmiteshP/nvim-navic'
-
-
 Plug 'preservim/nerdtree'
 Plug 'preservim/nerdtree' |
             \ Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -57,22 +55,16 @@ Plug 'airblade/vim-gitgutter'
 
 "Plug 'cdelledonne/vim-cmake'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
 call plug#end()
 
 lua require('Comment').setup()
-
 " You can revert the settings after the call like so:
 "   filetype indent off   " Disable file-type-specific indentation
 "   syntax off            " Disable syntax highlighting
 "
-
 let g:airline_theme='bubblegum'
 let g:airline_left_sep = '»'
 let g:airline_right_sep = '◀'
-
-
-
 """"""""""""""""""""""""""""""""""THEME"""""""""""""""""""""""""""""""""""""""""""
 
 " Important!!
@@ -85,9 +77,6 @@ colorscheme gruvbox
 "colorscheme gruvbox 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-
-
 
 "git configs
 nnoremap <C-d> :GitGutterDiffOrig<CR> 
@@ -292,8 +281,6 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 
-
-
 "remaps
 "remaps
 "leader key: \
@@ -306,17 +293,3 @@ nnoremap <leader>pv :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>
 nnoremap <Leader>ps :Rg<SPACE>
 nnoremap <silent> <Leader>= :vertical resize +5<CR>
 nnoremap <silent> <Leader>- :vertical resize -5<CR>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
